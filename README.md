@@ -133,79 +133,79 @@ django-auth-api/
 ## API Endpoints
 
 - **Get CSRF Token:**
-  - Endpoint: `/auth-api/get-csrf-token/`
+  - Endpoint: `http://localhost:8000/api/auth-api/get-csrf-token/`
   - Method: `GET`
   - Description: Retrieve the CSRF token.
 
 - **Check Authenticated:**
-  - Endpoint: `/auth-api/check-authenticated/`
+  - Endpoint: `http://localhost:8000/api/auth-api/check-authenticated/`
   - Method: `GET`
   - Description: Check if the user is authenticated.
 
 - **User Registration:**
-  - Endpoint: `/auth-api/register/`
+  - Endpoint: `http://localhost:8000/api/auth-api/register/`
   - Method: `POST`
   - Description: Register a new user.
 
 - **Activate User Account:**
-  - Endpoint: `/auth-api/activate/<str:uid>/<str:token>/`
+  - Endpoint: `http://localhost:8000/api/auth-api/activate/<str:uid>/<str:token>/`
   - Method: `GET`
   - Description: Activate the user account using the provided UID and token.
 
 - **Confirm Activation:**
-  - Endpoint: `/auth-api/activate/confirm/`
+  - Endpoint: `http://localhost:8000/api/auth-api/activate/confirm/`
   - Method: `POST`
   - Description: Confirm user activation.
 
 - **User Login:**
-  - Endpoint: `/auth-api/login/`
+  - Endpoint: `http://localhost:8000/api/auth-api/login/`
   - Method: `POST`
   - Description: Log in an existing user.
 
 - **Get User Details:**
-  - Endpoint: `/auth-api/user-detail/`
+  - Endpoint: `http://localhost:8000/api/auth-api/user-detail/`
   - Method: `GET`
   - Description: Get details of the authenticated user.
 
 - **Change Password:**
-  - Endpoint: `/auth-api/change-password/`
+  - Endpoint: `http://localhost:8000/api/auth-api/change-password/`
   - Method: `POST`
   - Description: Change the user's password.
 
 - **Delete User Account:**
-  - Endpoint: `/auth-api/delete-account/`
+  - Endpoint: `http://localhost:8000/api/auth-api/delete-account/`
   - Method: `POST`
   - Description: Delete the user account.
 
 - **User Logout:**
-  - Endpoint: `/auth-api/logout/`
+  - Endpoint: `http://localhost:8000/api/auth-api/logout/`
   - Method: `POST`
   - Description: Log out the user.
 
 - **Reset Password (Email):**
-  - Endpoint: `/auth-api/reset-password-email/`
+  - Endpoint: `http://localhost:8000/api/auth-api/reset-password-email/`
   - Method: `POST`
   - Description: Send a password reset email.
 
 - **Reset Password (Token):**
-  - Endpoint: `/auth-api/reset-password/<str:uid>/<str:token>/`
+  - Endpoint: `http://localhost:8000/api/auth-api/reset-password/<str:uid>/<str:token>/`
   - Method: `GET`
   - Description: Reset the user's password using the provided UID and token.
 
 - **Confirm Reset Password:**
-  - Endpoint: `/auth-api/reset-password/confirm/`
+  - Endpoint: `http://localhost:8000/api/auth-api/reset-password/confirm/`
   - Method: `POST`
   - Description: Confirm password reset.
 
 - **User Profile:**
-  - Endpoint: `/auth-api/profile/`
+  - Endpoint: `http://localhost:8000/api/auth-api/profile/`
   - Method: `GET`
   - Description: Get the user's profile information.
 
 ## Swagger UI
 
 Access the Swagger UI for API documentation:
-- URL: `/auth-api/swagger/`
+- URL: `http://localhost:8000/api/auth-api/swagger/`
 
 ## Usage
 
